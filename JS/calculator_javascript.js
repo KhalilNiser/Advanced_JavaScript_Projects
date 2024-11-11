@@ -164,6 +164,8 @@ function updateDisplay()
 
 updateDisplay();
 
+const keys = document.querySelector( ".calculator-keys" );
+
 // This section monitors all button clicks
 keys.addEventListener( 'click', ( event ) => 
 {
